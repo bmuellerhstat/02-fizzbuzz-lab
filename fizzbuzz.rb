@@ -1,12 +1,15 @@
 def fizzbuzz(n)
          if n % 5 == 0 && n % 3 == 0
-        puts "FizzBuzz"
+        return "FizzBuzz"
          elsif n % 5 == 0
-          puts "Buzz"
+          return "Buzz"
          elsif n % 3 == 0
-           puts "Fizz"
+           return "Fizz"
             else
-              puts n
+              return nil
      end
     end
+fizzbuzz(3)
+fizzbuzz(5)
 fizzbuzz(15)
+fizzbuzz(4)
