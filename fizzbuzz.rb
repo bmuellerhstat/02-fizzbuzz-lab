@@ -1,4 +1,4 @@
-def fizzbuzz(n =15)
+def fizzbuzz(n)
 if n % 5 == 0 && n % 3 == 0
 "FizzBuzz" 
  elsif n % 3 == 0
@@ -6,7 +6,7 @@ if n % 5 == 0 && n % 3 == 0
 elsif n % 5 == 0
  "Buzz"
 else
-puts 
+puts n 
 end
 end
 
