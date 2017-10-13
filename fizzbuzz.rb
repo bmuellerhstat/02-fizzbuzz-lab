@@ -10,7 +10,12 @@ def fizzbuzz(num)
     end
 end
 
-puts "Please enter a number: "
-user_number = gets.chomp.to_i
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(15)
+fizzbuzz(4)
 
-fizzbuzz(user_number)
+# puts "Please enter a number: "
+# user_number = gets.chomp.to_i
+
+# fizzbuzz(user_number)
