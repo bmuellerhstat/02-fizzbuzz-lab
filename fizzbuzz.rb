@@ -12,6 +12,6 @@ def fizzbuzz(num)
 end
 end
 fizzbuzz(15)
-fizzbuzz(21)
+fizzbuzz(27)
 fizzbuzz(100)
 fizzbuzz(11)
