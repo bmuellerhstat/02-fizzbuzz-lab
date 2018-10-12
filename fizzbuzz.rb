@@ -9,7 +9,5 @@ def fizzbuzz (user_number)
    end   
 end
 
-puts "type your #"
-user_number = gets.chomp.to_i
-fizzbuzz(user_number)
+
 
