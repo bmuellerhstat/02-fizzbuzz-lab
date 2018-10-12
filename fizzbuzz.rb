@@ -10,6 +10,12 @@ def fizzbuzz(num)
         return nil
     end
 end
-puts "What is your number?"
-num = gets.chomp.to_i
-fizzbuzz(num)
+
+fizzbuzz(3)
+fizzbuzz(27)
+fizzbuzz(5)
+fizzbuzz(40)
+fizzbuzz(15)
+fizzbuzz(60)
+fizzbuzz(4)
+fizzbuzz(28)
